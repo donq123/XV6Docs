@@ -1,2 +1,3 @@
 exit()
 ==================================
+Terminate current process
