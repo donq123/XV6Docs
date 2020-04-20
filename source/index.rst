@@ -10,13 +10,28 @@ Commands
 ==================
  
 .. toctree::
-   :maxdepth: 5
+   :maxdepth: 20
    
    fork
    exit
    wait
    kill
    getpid
+   sleep
+   exec
+   sbrk
+   open
+   read
+   write
+   close
+   dup
+   pipe
+   chdir
+   mkdir
+   mknod
+   fstat
+   link
+   unlink
 
 
 Indices and tables
