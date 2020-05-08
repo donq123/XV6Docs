@@ -1,3 +1,5 @@
 fstat(fd)
 ==================================
-Return info about an open file
+*fstat(int fd)*
+
+*Return info about an open file*

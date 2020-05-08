@@ -1,3 +1,5 @@
 mkdir(dirname)
 ==================================
-Create a new directory
+*mkdir(char *dirname)*
+
+*Create a new directory*

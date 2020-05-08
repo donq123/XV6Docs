@@ -1,3 +1,6 @@
 mknod(name, major, minor)
 ==================================
-Create a device file
+*mknod (char *name, short major, short minor)*
+
+*Create a device file*
+

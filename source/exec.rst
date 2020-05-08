@@ -1,3 +1,8 @@
 exec(filename, *argv)
 ==================================
-Load a file and execute it
+*exec(char *filename, char **argv)*
+
+*Load a file and execute it*
+
+Similar to fork, but replaces current process with a new program with new code.
+Registers, pid, etc. remain the same

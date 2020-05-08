@@ -1,3 +1,5 @@
 write(fd, buf, n)
 ==================================
-Write n bytes to an open file
+*write(fd, buf, n)*
+
+*Write n bytes to an open file*

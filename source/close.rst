@@ -1,3 +1,5 @@
 close(fd)
 ==================================
-Release open file fd
+*close(int fd)*
+
+*Release open file fd*

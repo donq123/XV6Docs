@@ -1,3 +1,5 @@
 link(f1, f2)
 ==================================
-Create another name (f2) for the file f1
+*link(char *f1, char *f2)*
+
+*Create another name (f2) for the file f1*

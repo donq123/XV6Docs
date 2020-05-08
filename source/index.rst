@@ -6,19 +6,36 @@
 Welcome to XV6Doc's documentation!
 ==================================
 
-Commands
-==================
- 
+Most Useful Commands
+##################################
 .. toctree::
+   :caption: important commands
    :maxdepth: 20
    
+   printf
+   strcmp
    fork
    exit
    wait
+
+Likely To Use Commands
+##################################
+.. toctree::
+   :caption: useful commands
+   :maxdepth: 20
+
    kill
    getpid
    sleep
    exec
+
+Other Commands
+##################################
+ 
+.. toctree::
+   :caption: other commands
+   :maxdepth: 20
+   
    sbrk
    open
    read
@@ -34,9 +51,9 @@ Commands
    unlink
 
 
-Indices and tables
-==================
+.. Indices and tables
+.. ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`

@@ -1,3 +1,3 @@
 exit()
 ==================================
-Terminate current process
+*Terminate current process*

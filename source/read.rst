@@ -1,3 +1,5 @@
 read(fd, buf, n)
 ==================================
-Read n byes from an open file into buf
+*read(int fd, void *buf, int n)*
+
+*Read n byes from an open file into buf*

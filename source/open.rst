@@ -1,3 +1,5 @@
-open(filename, falgs)
+open(filename, flags)
 ==================================
-Open a file; flags indicate read/write
+*open(char *filename, int flags)*
+
+*Open a file; flags indicate read/write*

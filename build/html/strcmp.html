@@ -4,7 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>mkdir(dirname) &#8212; XV6Doc  documentation</title>
+    <title>strcmp(s1, s2) &#8212; XV6Doc  documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -14,8 +14,8 @@
     <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="mknod(name, major, minor)" href="mknod.html" />
-    <link rel="prev" title="chdir(dirname)" href="chdir.html" />
+    <link rel="next" title="fork()" href="fork.html" />
+    <link rel="prev" title="printf(fd, *fmt)" href="printf.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -32,10 +32,14 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="mkdir-dirname">
-<h1>mkdir(dirname)<a class="headerlink" href="#mkdir-dirname" title="Permalink to this headline">¶</a></h1>
-<p>mkdir(char <a href="#id1"><span class="problematic" id="id2">*</span></a>dirname)
-Create a new directory</p>
+  <div class="section" id="strcmp-s1-s2">
+<h1>strcmp(s1, s2)<a class="headerlink" href="#strcmp-s1-s2" title="Permalink to this headline">¶</a></h1>
+<p><em>strcmp(const char</em> s1, const char* s2)*
+<em>compares two strings and returns a value -1, 0, 1</em></p>
+<p><strong>return values</strong></p>
+<p>Negative value if lhs appears before rhs in lexicographical order.</p>
+<p>Zero if lhs and rhs compare equal.</p>
+<p>Positive value if lhs appears after rhs in lexicographical order.</p>
 </div>
 
 
@@ -56,9 +60,9 @@ Create a new directory</p>
 
 <h3>Navigation</h3>
 <p class="caption"><span class="caption-text">important commands</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="printf.html">printf(fd, *fmt)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="strcmp.html">strcmp(s1, s2)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">strcmp(s1, s2)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fork.html">fork()</a></li>
 <li class="toctree-l1"><a class="reference internal" href="exit.html">exit()</a></li>
 <li class="toctree-l1"><a class="reference internal" href="wait.html">wait()</a></li>
@@ -71,16 +75,16 @@ Create a new directory</p>
 <li class="toctree-l1"><a class="reference internal" href="exec.html">exec(filename, *argv)</a></li>
 </ul>
 <p class="caption"><span class="caption-text">other commands</span></p>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="sbrk.html">sbrk(n)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="open.html">open(filename, flags)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open.html">open(filename, falgs)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="read.html">read(fd, buf, n)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="write.html">write(fd, buf, n)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="close.html">close(fd)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dup.html">dup(fd)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pipe.html">pipe(p)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="chdir.html">chdir(dirname)</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">mkdir(dirname)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mkdir.html">mkdir(dirname)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="mknod.html">mknod(name, major, minor)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fstat.html">fstat(fd)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="link.html">link(f1, f2)</a></li>
@@ -91,8 +95,8 @@ Create a new directory</p>
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="chdir.html" title="previous chapter">chdir(dirname)</a></li>
-      <li>Next: <a href="mknod.html" title="next chapter">mknod(name, major, minor)</a></li>
+      <li>Previous: <a href="printf.html" title="previous chapter">printf(fd, *fmt)</a></li>
+      <li>Next: <a href="fork.html" title="next chapter">fork()</a></li>
   </ul></li>
 </ul>
 </div>
@@ -126,7 +130,7 @@ Create a new directory</p>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="_sources/mkdir.rst.txt"
+      <a href="_sources/strcmp.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

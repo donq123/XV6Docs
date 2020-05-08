@@ -1,3 +1,5 @@
 chdir(dirname)
 ==================================
-Change the current directory
+*chdir(char *dirname)*
+
+*Change the current directory*
